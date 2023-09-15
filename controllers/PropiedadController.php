@@ -100,7 +100,7 @@ class PropiedadController {
             // Revisar que el array de errores este vacio
             if(empty($errores)) {
                 if($_FILES['propiedad']['tmp_name']['imagen']) {
-                    // Almacenar la imagen
+                    // Almacenar la imagen en la carpeta
                     $image->save(CARPETA_IMAGENES . $nombreImagen);
                 }
                 $propiedad->guardar();
