@@ -25,7 +25,7 @@
     <header class="header <?php echo $inicio ? 'inicio' : '' ?>">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/index.php">
+                <a href="/">
                     <img src="/build/img/logo.svg" alt="Logo">                    
                 </a>
 
