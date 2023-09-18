@@ -10,7 +10,7 @@ class LoginController {
         $errores = [];
 
         if($_SERVER['REQUEST_METHOD'] === 'POST') {
-            echo "autenticando...";
+            
         }
 
         $router->render('/auth/login', [
