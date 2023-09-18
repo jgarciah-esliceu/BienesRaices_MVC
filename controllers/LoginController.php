@@ -11,6 +11,19 @@ class LoginController {
 
         if($_SERVER['REQUEST_METHOD'] === 'POST') {
             
+            $auth = new Admin($_POST);
+
+            $errores = $auth->validar();
+
+            if(empty($errores)) {
+                // Verificar si el usuario existe
+
+
+                // Verificar si la contraseña es correcta
+
+
+                // Autenticar al usuario
+            }
         }
 
         $router->render('/auth/login', [
