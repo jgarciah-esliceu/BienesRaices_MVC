@@ -9,5 +9,6 @@ Representa una inmobiliaria, con gestión de propiedades. Cuenta con un apartado
 
 ## Tecnologias Usadas
 
-**Client:** HTML, CSS, JavaScript, Sass, PHP, MySQL, Estructura MVC
-
+**Client:** HTML, CSS, JavaScript, Sass
+**Back:** PHP, MySQL, Estructura MVC
+ 
